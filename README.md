@@ -38,3 +38,19 @@ Use these settings when adding a monitor:</b>
 <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku">
 </a>
 </details> ♥️
+
+- `API_ID` - Get this from [TelegramORG](https://telegram.org)
+- `API_HASH` - Get this from [TelegramORG](https://telegram.org)
+- `BOT_TOKEN` - Get this from [@BotFather](https://t.me/BotFather)
+- `BOT_USERNAME` - You Bot Username. *(Without [@])*
+- `DB_CHANNEL` - A Telegram Channel ID.
+	- Make a Channel for Storing Files. We will use that as Database. Channel must be Private! Else you will be Copyright by [Telegram DMCA](https://t.me/dmcatelegram)!
+- `BOT_OWNER` - Bot Owner UserID
+	- Put your Telegram UserID for doing Broadcast.
+- `DATABASE_URL` - MongoDB Database URI
+	- This for Saving UserIDs. When you will Broadcast, bot will forward the Broadcast to DB Users.
+- `UPDATES_CHANNEL` - Force Sub Channel ID *(Optional)*
+	- ID of a Channel which you want to do Force Sub to use the bot. 
+- `LOG_CHANNEL` - Logs Channel ID
+	- This for some getting user info. If any new User added to DB, Bot will send Log to that Logs Channel. You can use same DB Channel ID.
+ 
